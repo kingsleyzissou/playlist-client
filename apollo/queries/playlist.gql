@@ -1,0 +1,12 @@
+query Playlist($id: Int!) {  
+  playlist(id: $id) {
+    id
+    name
+    songs {
+        title
+        artist {
+            name
+        }
+    }
+  }
+}
