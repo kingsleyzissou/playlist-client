@@ -1,0 +1,9 @@
+query Playlists {  
+  playlists {
+    id
+    name
+    songs {
+        title
+    }
+  }
+}
